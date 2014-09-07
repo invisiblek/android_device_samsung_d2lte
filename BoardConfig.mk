@@ -30,6 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := d2att,d2spr,d2spi,d2tfnspr,d2tmo,d2cri,d2mtr,d2usc,d
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # Kernel
+TARGET_KERNEL_TOOLCHAIN     := linaro-4.9_a15
 TARGET_KERNEL_CONFIG        := cyanogen_d2_defconfig
 
 # Audio
